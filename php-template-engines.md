@@ -15,3 +15,5 @@
 ## [Timber](https://github.com/timber/timber)
 
 ## [Smarty](https://github.com/smarty-php/smarty)
+
+## [Mustache.php](https://github.com/bobthecow/mustache.php)

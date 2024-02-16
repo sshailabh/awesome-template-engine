@@ -9,6 +9,8 @@ Template engines built in Javascript
 
 ## [Handlebars](https://github.com/handlebars-lang/handlebars.js)
 
+## [Mustache.js](https://github.com/janl/mustache.js)
+
 ## [Email templates](https://github.com/forwardemail/email-templates)
 
 ## [Rivets](https://github.com/mikeric/rivets)
@@ -20,4 +22,3 @@ Template engines built in Javascript
 ## [Koa-views](https://github.com/queckezz/koa-views)
 
 ## [doT](https://github.com/olado/doT)
-

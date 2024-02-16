@@ -5,3 +5,5 @@
 ## [Fluid](https://github.com/sebastienros/fluid)
 
 ## [Handlebars.Net](https://github.com/Handlebars-Net/Handlebars.Net)
+
+## [Stubble](https://github.com/StubbleOrg/Stubble)
