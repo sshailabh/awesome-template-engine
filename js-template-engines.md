@@ -5,6 +5,10 @@ Template engines built in Javascript
 
 ## [Pug](https://github.com/pugjs/pug)
 
+## [Nunjucks](https://github.com/mozilla/nunjucks)
+
+## [Handlebars](https://github.com/handlebars-lang/handlebars.js)
+
 ## [Email templates](https://github.com/forwardemail/email-templates)
 
 ## [Rivets](https://github.com/mikeric/rivets)
