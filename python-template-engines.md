@@ -14,3 +14,5 @@ Template engines written in Python.
 ## [Pystache](https://github.com/defunkt/pystache)
 
 ## [JinjaSQL]()
+
+## [Jsonnet](https://github.com/google/jsonnet)
