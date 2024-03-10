@@ -1,10 +1,10 @@
 # template-engine-list
 
 ---
-
 The repository contains the list of all available template engines in different programming languages. It covers 80+ template engine available open source.
 
 ## Programming Languages
+Below is the list of template engines in various programming language:
 
 | Language     | No. Template engines |
 |--------------|----------------------|
@@ -17,7 +17,7 @@ The repository contains the list of all available template engines in different 
 | Kotlin       | 1                    |
 | Lua          | 2                    |
 | PHP          | 9                    |
-| Python       | 7                    |
+| Python       | 8                    |
 | R            | 1                    |
 | Ruby         | 4                    |
 | Rust         | 6                    |
