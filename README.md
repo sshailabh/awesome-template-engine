@@ -23,3 +23,7 @@ Below is the list of template engines in various programming language:
 | Rust         | 6                    |
 | Scala        | 2                    |
 | TypeScript   | 3                    |
+
+## Benchmarks
+
+The [benchmarks.md](benchmarks.md) file contains template-engine benchmarks in popular programming languages.

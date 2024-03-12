@@ -7,3 +7,6 @@
 ## [Jb](https://github.com/amatsuda/jb)
 
 ## [Hamlit](https://github.com/k0kubun/hamlit)
+
+## [ERB](https://docs.ruby-lang.org/en/2.3.0/ERB.html)
+

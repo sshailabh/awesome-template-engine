@@ -51,3 +51,6 @@ Twig.js is a pure JavaScript implementation of the Twig PHP templating language.
 
 ## [ECT](https://github.com/baryshev/ect)
 Performance focused JavaScript template engine with embedded CoffeeScript syntax.
+
+## [Consolidate.js](https://github.com/tj/consolidate.js)
+This library consolidates most of the known template engines implemented in JS in a single npm package.
