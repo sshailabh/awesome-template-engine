@@ -17,8 +17,16 @@ Jet is a template engine developed to be powerful, dynamic and fast.[Syntax Doc]
 GoRazor is the golang port of the [Razor](https://asp-blogs.azurewebsites.net/scottgu/introducing-razor) view engine originated from ASP.NET.
 
 ## [Jade](https://github.com/Joker/jade)
+Jade.go is a simple and fast template engine implementing [Jade/Pug](https://pugjs.org/language/tags.html) template in Go.
 
 ## [Mustache.go](https://github.com/hoisie/mustache)
 mustache.go is a go implementation of the [mustache](https://github.com/mustache/spec) spec template engine and suited for website templates.
 
 ## [Ego](https://github.com/benbjohnson/ego)
+Ego is an [ERB](https://docs.ruby-lang.org/en/2.3.0/ERB.html) style templating language for Go. It transpiles templates into pure Go and including them at compile time.
+
+## [Ace](https://github.com/yosssi/ace)
+Ace is an HTML template engine inspired by Slim and Jade.
+
+## [Amber](https://github.com/eknkc/amber)
+Amber is an elegant templating engine for Go Programming Language It is inspired from HAML and Jade.
