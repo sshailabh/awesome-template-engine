@@ -6,23 +6,24 @@ The repository contains the list of all available template engines in different 
 ## Programming Languages
 Below is the list of template engines in various programming language:
 
-| Language     | No. Template engines |
-|--------------|----------------------|
-| C#           | 4                    |
-| C++          | 4                    |
-| CoffeeScript | 1                    |
-| Go           | 8                    |
-| Java         | 15                   |
-| JavaScript   | 17                   |
-| Kotlin       | 1                    |
-| Lua          | 2                    |
-| PHP          | 9                    |
-| Python       | 8                    |
-| R            | 1                    |
-| Ruby         | 4                    |
-| Rust         | 6                    |
-| Scala        | 2                    |
-| TypeScript   | 3                    |
+| Language                                 | No. Template engines |
+|------------------------------------------|----------------------|
+| [C#](c#-template-engines.md)             | 4                    |
+| [C++](c++-template-engines.md)           | 4                    |
+| [CoffeeScript](misc-template-engines.md) | 1                    |
+| [Go](go-template-engines.md)             | 8                    |
+| [Java](java-template-engines.md)         | 15                   |
+| [JavaScript](js-template-engines.md)     | 17                   |
+| [Kotlin](kotlin-template-engines.md)     | 1                    |
+| [Lua](lua-template-engines.md)           | 2                    |
+| [PHP](php-template-engines.md)           | 9                    |
+| [Python](python-template-engines.md)     | 8                    |
+| [R](r-template-engines.md)               | 1                    |
+| [Ruby](ruby-template-engines.md)         | 4                    |
+| [Rust](rust-template-engines.md)         | 6                    |
+| [Scala](scala-template-engines.md)       | 2                    |
+| [Swift](swift-template-engines.md)       | 2                    |
+| [TypeScript](misc-template-engines.md)   | 3                    |
 
 ## Benchmarks
 
