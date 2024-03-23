@@ -22,6 +22,7 @@ Below is the list of template engines in various programming language:
 | [Ruby](ruby-template-engines.md)         | 4                    |
 | [Rust](rust-template-engines.md)         | 6                    |
 | [Scala](scala-template-engines.md)       | 2                    |
+| [Swift](swift-template-engines.md)       | 2                    |
 | [TypeScript](misc-template-engines.md)   | 3                    |
 
 ## Benchmarks

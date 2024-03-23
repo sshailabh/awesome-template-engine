@@ -9,3 +9,6 @@ Twirl is a Scala-based template engine, whose design was inspired by [ASP.NET Ra
 
 ## [Handlebars.scala](https://github.com/mwunsch/handlebars.scala)
 A scala implementation of [Handlebars](https://handlebarsjs.com), an extension [Mustache](https://mustache.github.io) template engine.
+
+## [Thera](https://github.com/scala-thera/thera)
+Thera is a scala based template engine for building static websites.
