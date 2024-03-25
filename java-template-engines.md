@@ -45,3 +45,6 @@ Pug4J(earlier named [Jade4J](https://github.com/neuland/jade4j)) is built for Pu
 
 ## [Apache FreeMarker](https://github.com/apache/freemarker)
 FreeMarker is a Java template engine that can be used to generate text output (anything from HTML to auto generated source code) based on templates.
+
+## [HtmlFlow](https://github.com/xmlet/HtmlFlow)
+HtmlFlow is a Java DSL to write typesafe HTML in a fluent style.

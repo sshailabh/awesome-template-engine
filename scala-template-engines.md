@@ -12,3 +12,12 @@ A scala implementation of [Handlebars](https://handlebarsjs.com), an extension [
 
 ## [Thera](https://github.com/scala-thera/thera)
 Thera is a scala based template engine for building static websites.
+
+## [ScalaTags](https://github.com/com-lihaoyi/scalatags)
+ScalaTags is a small and fast XML/HTML/CSS construction library for Scala that takes fragments in plain Scala code. [Documentation](https://com-lihaoyi.github.io/scalatags/)
+
+## [Hepek](https://github.com/sake92/hepek)
+Hepek is written Scala code for generating typesafe but flexible HTML.
+
+## [Beard](https://github.com/zalando/beard)
+Beard is a logic-less templating engine written in Scala and inspired by [Mustache](https://mustache.github.io). It uses [ANTLR](https://www.antlr.org/) for parsing however the project is now archived.
