@@ -8,7 +8,7 @@ Below is the list of template engines in various programming language:
 
 | Language                                 | No. Template engines |
 |------------------------------------------|----------------------|
-| [C#](c#-template-engines.md)             | 4                    |
+| [C#](c#-template-engines.md)             | 6                    |
 | [C++](c++-template-engines.md)           | 4                    |
 | [CoffeeScript](misc-template-engines.md) | 1                    |
 | [Go](go-template-engines.md)             | 8                    |
@@ -19,9 +19,9 @@ Below is the list of template engines in various programming language:
 | [PHP](php-template-engines.md)           | 9                    |
 | [Python](python-template-engines.md)     | 8                    |
 | [R](r-template-engines.md)               | 1                    |
-| [Ruby](ruby-template-engines.md)         | 4                    |
+| [Ruby](ruby-template-engines.md)         | 7                    |
 | [Rust](rust-template-engines.md)         | 6                    |
-| [Scala](scala-template-engines.md)       | 2                    |
+| [Scala](scala-template-engines.md)       | 7                    |
 | [Swift](swift-template-engines.md)       | 2                    |
 | [TypeScript](misc-template-engines.md)   | 3                    |
 

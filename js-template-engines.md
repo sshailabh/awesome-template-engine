@@ -49,6 +49,9 @@ Velocity.js is port of [Apache velocity](https://github.com/apache/velocity-engi
 ## [Twig.js](https://github.com/twigjs/twig.js)
 Twig.js is a pure JavaScript implementation of the Twig PHP templating language. [Documentation](https://github.com/twigjs/twig.js/wiki/Implementation-Notes)
 
+## [MJML](https://github.com/mjmlio/mjml)
+MJML is a markup language created by Mailjet and designed to reduce the pain of coding a responsive email.
+
 ## [ECT](https://github.com/baryshev/ect)
 Performance focused JavaScript template engine with embedded CoffeeScript syntax.
 
