@@ -32,3 +32,7 @@ forked from [Java Template Benchmark](https://github.com/mbosecke/template-bench
 ## Rust
 
 ### [Rust template benchmark](https://github.com/rosetta-rs/template-benchmarks-rs)
+
+## .Net
+### https://github.com/sebastienros/fluid?#benchmarks
+Benchmarks on some template engines in .NET.

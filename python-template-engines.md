@@ -1,5 +1,5 @@
 # Python Template Engines
-Template engines written in Python.
+Template engines written in Python:
 
 ## [Jinja](https://github.com/pallets/jinja)
 Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. [Documentation](https://jinja.palletsprojects.com/en/3.1.x/)
