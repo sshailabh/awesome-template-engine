@@ -1,7 +1,7 @@
 # template-engine-list
 
 ---
-The repository contains the list of all available template engines in different programming languages. It covers 80+ template engine available open source.
+The repository contains the list of all available template engines in different programming languages. It covers 100+ open source template engine along with their repository.
 
 ## Programming Languages
 Below is the list of template engines in various programming language:
