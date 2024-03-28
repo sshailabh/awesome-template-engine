@@ -10,7 +10,7 @@ Handlebars.java is a Java port of the Handlebars template engine and follows Mus
 ## [Pebble](https://github.com/PebbleTemplates/pebble)
 Pebble is inspired from Twig template engine, and it's syntax is similar to Jinja template engine. [Documentation](https://pebbletemplates.io/). It features template inheritance feature and easy-to-read syntax. It has a topdown parser. 
 
-## [Mustache Java](https://github.com/spullara/mustache.java)
+## [Mustache.java](https://github.com/spullara/mustache.java)
 Mustache.java is a derivative template engine of [mustache.js](http://mustache.github.io/mustache.5.html). It has its own parser written in Java.
 
 ## [JStachio](https://github.com/jstachio/jstachio)

@@ -10,7 +10,7 @@ Pongo2 is a Django-syntax like templating-language. [Documentation](https://pkg.
 ## [Hero](https://github.com/shiyanhui/hero)
 Hero is a fast and powerful go template engine, which pre-compiles the html templates to go code.
 
-## [jet](https://github.com/CloudyKit/jet)
+## [Jet](https://github.com/CloudyKit/jet)
 Jet is a template engine developed to be powerful, dynamic and fast.[Syntax Doc](https://github.com/CloudyKit/jet/blob/master/docs/syntax.md)
 
 ## [GoRazor](https://github.com/sipin/gorazor)
