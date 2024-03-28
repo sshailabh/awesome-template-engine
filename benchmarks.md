@@ -34,5 +34,10 @@ forked from [Java Template Benchmark](https://github.com/mbosecke/template-bench
 ### [Rust template benchmark](https://github.com/rosetta-rs/template-benchmarks-rs)
 
 ## .Net
+
 ### https://github.com/sebastienros/fluid?#benchmarks
 Benchmarks on some template engines in .NET.
+
+## PHP
+
+### [Twig vs Smarty Vs Fenom](https://github.com/fenom-template/fenom/blob/master/docs/en/benchmark.md)
