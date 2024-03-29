@@ -22,5 +22,11 @@ Cheetah3 is a domain-specific python template engine for markup generation and t
 ## [Genshi](https://github.com/edgewall/genshi)
 Genshi provides a XML-based template language that is heavily inspired by Kid and focuses on generating XML/HTML markup. [Documentation](https://genshi.edgewall.org/)
 
+## [Kajiki](https://github.com/jackrosenthal/kajiki)
+Kajiki is a Python template engine whose input is XML with HTML/XML output and inspired from [Genshi](https://github.com/edgewall/genshi) syntax. It mitigates slow performance of Genshi by compiling templates to Python code ensuring rendering with blazing-fast speed. 
+
 ## [Jsonnet](https://github.com/google/jsonnet)
 Jsonnet is a configuration language for app and tool developers  [Documentation](https://jsonnet.org/)
+
+## [Chameleon](https://github.com/malthe/chameleon/)
+Chameleon is an HTML/XML template engine generation library in Python. [Documentation](https://chameleon.readthedocs.io/en/latest/)
