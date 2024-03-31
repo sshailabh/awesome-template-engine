@@ -40,4 +40,6 @@ Benchmarks on some template engines in .NET.
 
 ## PHP
 
-### [Twig vs Smarty Vs Fenom](https://github.com/fenom-template/fenom/blob/master/docs/en/benchmark.md)
+### [Twig vs Smarty vs Fenom](https://github.com/fenom-template/benchmark)
+[Comparison Details](https://github.com/fenom-template/fenom/blob/master/docs/en/benchmark.md) for three PHP templates engines-Twig, Smarty and Fenom is done.
+The comparison templates invlve forEach, variable reference and template inheritance. [Script file](https://github.com/fenom-template/benchmark/blob/master/bin/fenom-benchmark.php) 
