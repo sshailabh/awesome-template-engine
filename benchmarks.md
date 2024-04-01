@@ -12,6 +12,7 @@ old benchmark
 ## Golang
 
 ### [goTemplateBenchmark](https://github.com/slinso/goTemplateBenchmark)
+This repo compares template engines in golang. It includes [Ace](https://github.com/yosssi/ace), [Amber](https://github.com/eknkc/amber), [Mustache.go](https://github.com/hoisie/mustache), [Raymond](https://github.com/aymerick/raymond), [Pongo2](https://github.com/flosch/pongo2), [Jet](https://github.com/CloudyKit/jet), [Soy](https://github.com/robfig/soy).
 
 ## Java
 
@@ -35,8 +36,9 @@ forked from [Java Template Benchmark](https://github.com/mbosecke/template-bench
 
 ## .Net
 
-### https://github.com/sebastienros/fluid?#benchmarks
-Benchmarks on some template engines in .NET.
+### [Fluid vs Liquid implementations](https://github.com/sebastienros/fluid?#benchmarks)
+THe benchmark compares time taken for template engines implemented in C#. The template engines include - Fluid, Scriban, DotLiquid, Liquid.NET and Handlebars.NET repository.
+Fluid is faster and allocates less memory than these .NET Liquid implementation. Fluid is 19% faster than the second in parsing while Scriban allocates nearly 3 times less memory than second. In rendering, Fluid is 26% faster than the second while Handlebars is 5 times faster than Scriban.
 
 ## PHP
 

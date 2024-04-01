@@ -48,3 +48,6 @@ FreeMarker is a Java template engine that can be used to generate text output (a
 
 ## [HtmlFlow](https://github.com/xmlet/HtmlFlow)
 HtmlFlow is a Java DSL to write typesafe HTML in a fluent style.
+
+## [Closure-Templates](https://github.com/google/closure-templates)
+Closure Templates are a client and server-side templating system that helps to dynamically build reusable HTML and UI elements from Google.
