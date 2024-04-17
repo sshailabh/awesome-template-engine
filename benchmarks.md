@@ -1,18 +1,31 @@
-# Benchmark for template engines
+# Benchmarks
 
 ## JavaScript
 
-### [JS-templating-benchmark](https://github.com/marko-js/templating-benchmarks)
+### [Marko-templating-benchmark](https://github.com/marko-js/templating-benchmarks)
+This repo provides a framework for running benchmarks against multiple templating engines under Node.js. The following templating engine are compared:
+
+| Template                                              | Syntax            | Streaming | Asynchronous | Auto-escape |
+|-------------------------------------------------------|-------------------|-----------|--------------|-------------|
+| [dustjs](https://github.com/linkedin/dustjs)          | Text              | ✔         | ✔            | ✔           |
+| [doT](https://github.com/olado/doT)                   | Text              | ✖         | ✖            | ✖           |
+| [handlebars](https://github.com/wycats/handlebars.js) | Text              | ✖         | ✖            | ✔           |
+| [pug](https://github.com/pugjs/pug)                   | Short-hand HTML   | ✖         | ✖            | ✔           |
+| [marko](https://github.com/marko-js/marko)            | HTML/Concise HTML | ✔         | ✔            | ✔           |
+| [nunjucks](http://mozilla.github.io/nunjucks/)        | Text              | ✖         | ✔            | ✖           |
+| [swig](http://mozilla.github.io/nunjucks/)            | Text              | ✖         | ✖            | ✔           |
 
 ### [Node.js template engine](https://github.com/baryshev/template-benchmark)
 
 ### [node](https://github.com/paularmstrong/node-templates)
 old benchmark
 
-## Golang
+## Go
 
-### [goTemplateBenchmark](https://github.com/slinso/goTemplateBenchmark)
+1. [goTemplateBenchmark](https://github.com/slinso/goTemplateBenchmark)
+
 This repo compares template engines in golang. It includes [Ace](https://github.com/yosssi/ace), [Amber](https://github.com/eknkc/amber), [Mustache.go](https://github.com/hoisie/mustache), [Raymond](https://github.com/aymerick/raymond), [Pongo2](https://github.com/flosch/pongo2), [Jet](https://github.com/CloudyKit/jet), [Soy](https://github.com/robfig/soy).
+
 
 ## Java
 
