@@ -1,0 +1,48 @@
+<p align="center">
+    <a href="https://github.com/sshailabh/awesome-template-engine">
+    <img width="470" height="166" src="icon.png" alt="template-engine"></a>
+</p>
+
+<h1 align="center">
+    Awesome Template Engine
+</h1>
+
+<div align="center">
+    <a href="https://github.com/sindresorhus/awesome">
+        <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome">
+    </a>
+</div>
+
+---
+
+A curated list of template engines across all programming languages with repository activity stats.
+
+# Template Engines by Language
+
+{% for language, engines in template_engines.items()|sort %}
+## {{ language }}
+Summary of ({{ engines|length }} template engines)
+
+| Engine | Description | Stars | Forks | Last Update | Status |
+|--------|-------------|-------|-------|-------------|---------|
+{% for engine in engines %}
+{%- set stats = get_repo_stats(engine.url) %}
+| [{{ engine.name }}]({{ engine.url }}) | {{ engine.description }} | {{ stats.stars }}⭐ | {{ stats.forks }} | {{ stats.last_commit|default('N/A')|truncate(10, True, '') }} | {{ '🟢' if stats.active == 'Yes' else '🔴' }} |
+{% endfor %}
+
+{% endfor %}
+
+# Benchmarks on Template Engines
+The [benchmarks.md](benchmarks.md) file contains template-engine benchmarks in popular programming languages.
+
+# Contributing
+Feel free to submit a PR to add or update template engine information!
+1. The template engine is open source.
+2. Provide the GitHub repository URL and include a brief description.
+3. Ensure to add in alphabetical order in `gen/template-engines.yaml` file.
+4. Ensure to add in the correct language category.
+
+---
+**Stats**
+- Green(🟢) if the repository is active and has commit in last 12 months, red(🔴) otherwise.
+- Last updated: {{ current_date }}

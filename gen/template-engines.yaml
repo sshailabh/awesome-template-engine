@@ -1,0 +1,385 @@
+template_engines:
+  C#:
+    - name: DotLiquid
+      description: A .Net port of the popular Liquid templating language written in Ruby
+      url: https://github.com/dotliquid/dotliquid
+    - name: Fluid
+      description: An open-source .NET template engine based on the Liquid template language
+      url: https://github.com/sebastienros/fluid
+    - name: Handlebars.Net
+      description: A port of Handlebars.js to .NET that compiles templates directly to IL bytecode
+      url: https://github.com/Handlebars-Net/Handlebars.Net
+    - name: MJML.Net
+      description: A fast port of MJML 4 to .NET 6 & 7
+      url: https://github.com/SebastianStehle/mjml-net
+    - name: RazorLight
+      description: Template engine for building templates from Files outside of ASP.NET MVC
+      url: https://github.com/toddams/RazorLight
+    - name: Scriban
+      description: Fast and lightweight scripting language for .NET with liquid compatibility mode
+      url: https://github.com/scriban/scriban
+    - name: Spark
+      description: View engine for ASP.NET MVC with syntax inspired by Jade/Haml
+      url: https://github.com/SparkViewEngine/spark
+    - name: Stubble
+      description: Trimmed down {{mustache}} templates in .NET
+      url: https://github.com/StubbleOrg/Stubble
+
+  C++:
+    - name: Inja
+      description: Template engine inspired by Jinja for modern C++
+      url: https://github.com/pantor/inja
+    - name: Jinja2Cpp
+      description: C++ implementation of Python Jinja2 template engine
+      url: https://github.com/jinja2cpp/Jinja2Cpp
+    - name: mstch
+      description: Complete implementation of mustache templates in C++
+      url: https://github.com/no1msd/mstch
+    - name: Qentem
+      description: Lightweight template engine for C++/C/Java projects and WASM
+      url: https://github.com/HaniAmmar/Qentem-Engine
+
+  CoffeeScript:
+    - name: DocPad
+      description: Streamlined web development using CoffeeScript
+      url: https://github.com/docpad/docpad
+
+  Go:
+    - name: Ace
+      description: HTML template engine inspired by Slim and Jade
+      url: https://github.com/yosssi/ace
+    - name: Amber
+      description: Template engine inspired from HAML and Jade
+      url: https://github.com/eknkc/amber
+    - name: Ego
+      description: ERB style templating language that transpiles to Go
+      url: https://github.com/benbjohnson/ego
+    - name: GoRazor
+      description: Go port of the Razor view engine
+      url: https://github.com/sipin/gorazor
+    - name: Hero
+      description: Fast template engine that pre-compiles to Go code
+      url: https://github.com/shiyanhui/hero
+    - name: Jade
+      description: Implementation of Jade/Pug templates in Go
+      url: https://github.com/Joker/jade
+    - name: Jet
+      description: Fast and dynamic template engine with Django-like syntax
+      url: https://github.com/CloudyKit/jet
+    - name: Mustache.go
+      description: Go implementation of Mustache templates
+      url: https://github.com/hoisie/mustache
+    - name: Pongo2
+      description: Django-syntax templating for Go
+      url: https://github.com/flosch/pongo2
+    - name: QuickTemplate
+      description: Fast template engine inspired by Mako
+      url: https://github.com/valyala/quicktemplate
+    - name: Raymond
+      description: Go port of Handlebars.js
+      url: https://github.com/aymerick/raymond
+    - name: Soy
+      description: Go implementation of Google Closure Templates
+      url: https://github.com/robfig/soy
+
+  Groovy:
+    - name: Jenkins Templating Engine
+      description: A plugin enabling Jenkins pipeline templating and governance, bringing Template Method Design Pattern to pipelines
+      url: https://github.com/jenkinsci/templating-engine-plugin
+
+  Java:
+    - name: Apache FreeMarker
+      description: A Java template engine that can be used to generate text output based on templates
+      url: https://github.com/apache/freemarker
+    - name: Apache Velocity
+      description: A Java based template engine
+      url: https://github.com/apache/velocity-engine
+    - name: Blade
+      description: A simple open source web framework that helps quickly build web applications
+      url: https://github.com/lets-blade/blade
+    - name: Closure-Templates
+      description: A client and server-side templating system for dynamically building reusable HTML and UI elements
+      url: https://github.com/google/closure-templates
+    - name: Handlebars.java
+      description: A Java port of the Handlebars template engine following Mustache template
+      url: https://github.com/jknack/handlebars.java
+    - name: HtmlFlow
+      description: A Java DSL to write typesafe HTML in a fluent style
+      url: https://github.com/xmlet/HtmlFlow
+    - name: JinJava
+      description: Java-based template engine based on django template syntax, adapted to render jinja templates
+      url: https://github.com/HubSpot/jinjava
+    - name: JMustache
+      description: A Java implementation of Mustache specification template engine
+      url: https://github.com/samskivert/jmustache
+    - name: JStachio
+      description: A Mustache compatible type-safe Java templating engine
+      url: https://github.com/jstachio/jstachio
+    - name: JTE
+      description: Lightweight template engine for Java and Kotlin with productive and typesafe experience
+      url: https://github.com/casid/jte
+    - name: ManTL
+      description: A lightweight & type-safe template engine integrated with the Java compiler using Manifold
+      url: https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-templates
+    - name: Mustache.java
+      description: A derivative template engine of mustache.js with its own parser written in Java
+      url: https://github.com/spullara/mustache.java
+    - name: Pebble
+      description: A template engine inspired from Twig with syntax similar to Jinja featuring template inheritance
+      url: https://github.com/PebbleTemplates/pebble
+    - name: Pug4J
+      description: A Java implementation of the Pug templating language
+      url: https://github.com/neuland/pug4j
+    - name: Rocker
+      description: An intuitive, tagless syntax template engine with standard Java expressions
+      url: https://github.com/fizzed/rocker
+    - name: Thymeleaf
+      description: A server-side Java template engine for both web and standalone environments
+      url: https://github.com/thymeleaf/thymeleaf
+    - name: Trimou
+      description: A Mustache spec implementation with helpers inspired from Handlebars.js
+      url: https://github.com/trimou/trimou
+
+  JavaScript:
+    - name: .Dom
+      description: A template engine replicating re-usable component and virtual DOM within 512 bytes
+      url: https://github.com/wavesoft/dot-dom
+    - name: Art-template
+      description: A fast templating engine that optimizes template rendering speed by scope pre-declared technique
+      url: https://github.com/aui/art-template
+    - name: Carbone
+      description: A mustache-like template engine and open source document generator
+      url: https://github.com/carboneio/carbone
+    - name: Consolidate.js
+      description: A library that consolidates most known template engines implemented in JS
+      url: https://github.com/tj/consolidate.js
+    - name: doT
+      description: A fastest JavaScript templating function with emphasis on performance under V8 and nodejs
+      url: https://github.com/olado/doT
+    - name: DustJS
+      description: An asynchronous Javascript templating engine developed by LinkedIn
+      url: https://github.com/linkedin/dustjs
+    - name: ECT
+      description: Performance focused JavaScript template engine with embedded CoffeeScript syntax
+      url: https://github.com/baryshev/ect
+    - name: EJS
+      description: Embedded JavaScript templates designed to be flexible and easy-to-write
+      url: https://github.com/mde/ejs
+    - name: Handlebars.js
+      description: A template engine extending Mustache templating with additional features
+      url: https://github.com/handlebars-lang/handlebars.js
+    - name: Hogan.js
+      description: A compiler for the Mustache templating language with separate scanning, parsing and code generation phases
+      url: https://github.com/twitter/hogan.js
+    - name: Lodash
+      description: A utility library for working with arrays, numbers, objects, strings, and creating composite functions
+      url: https://github.com/lodash/lodash
+    - name: Marko
+      description: HTML reimagined as a language for building dynamic and reactive user interfaces
+      url: https://github.com/marko-js/marko
+    - name: MJML
+      description: A markup language designed to reduce the pain of coding responsive email
+      url: https://github.com/mjmlio/mjml
+    - name: Nunjucks
+      description: A templating engine heavily inspired from Jinja2 with template inheritance & asynchronous control
+      url: https://github.com/mozilla/nunjucks
+    - name: Mustache.js
+      description: A JavaScript implementation of the mustache logic-less templates
+      url: https://github.com/janl/mustache.js
+    - name: Pug
+      description: A high-performance template engine influenced by Haml for Node.js and browsers
+      url: https://github.com/pugjs/pug
+    - name: Rivets
+      description: A lightweight data binding and template engine specializing in building data-driven views
+      url: https://github.com/mikeric/rivets
+    - name: Swig
+      description: A simple, Django/Jinja-like template engine for node.js
+      url: https://github.com/paularmstrong/swig
+    - name: Twig.js
+      description: A pure JavaScript implementation of the Twig PHP templating language
+      url: https://github.com/twigjs/twig.js
+    - name: Velocity.js
+      description: A port of Apache velocity template engine in JavaScript using Jison library parser
+      url: https://github.com/shepherdwind/velocity.js
+
+  Kotlin:
+    - name: Barber
+      description: A type safe Kotlin JVM library for building up templates
+      url: https://github.com/cashapp/barber
+
+  Lua:
+    - name: Lua Resty Template
+      description: A compiling template engine for Lua and OpenResty
+      url: https://github.com/bungle/lua-resty-template
+    - name: Lustache
+      description: Lua implementation of Mustache template engine
+      url: https://github.com/Olivine-Labs/lustache
+
+  PHP:
+    - name: Blade
+      description: The simple yet powerful templating engine provided with Laravel
+      url: https://github.com/laravel/framework/tree/10.x/src/Illuminate/View
+    - name: Blade One
+      description: A standalone version of Laravel's Blade templating engine for use outside of Laravel
+      url: https://github.com/EFTEC/BladeOne
+    - name: Dwoo
+      description: A PHP5/PHP7 template engine which follows Smarty's footsteps
+      url: https://github.com/dwoo-project/dwoo
+    - name: Fenom
+      description: A fast template engine for PHP with syntax similar to Smarty
+      url: https://github.com/fenom-template/fenom
+    - name: Laravel Blade
+      description: The official Blade templating engine integrated with Laravel framework
+      url: https://laravel.com/docs/11.x/blade
+    - name: Latte
+      description: A secure template engine for PHP with protection against vulnerabilities
+      url: https://github.com/nette/latte
+    - name: Mustache.php
+      description: A Mustache implementation in PHP
+      url: https://github.com/bobthecow/mustache.php
+    - name: PHP Text Template
+      description: A simple template engine for text output in PHP applications
+      url: https://github.com/sebastianbergmann/php-text-template
+    - name: Plates
+      description: A native PHP template system inspired by Twig
+      url: https://github.com/thephpleague/plates
+    - name: RainTPL 3
+      description: An easy template engine for PHP that loads HTML templates
+      url: https://github.com/feulf/raintpl3
+    - name: Savant
+      description: A powerful but lightweight object-oriented template system for PHP
+      url: https://github.com/saltybeagle/Savant3
+    - name: Smarty
+      description: A template engine for PHP using variables, modifiers, functions and comments
+      url: https://github.com/smarty-php/smarty
+    - name: TinyButStrong
+      description: A PHP template engine enabling W3C compliant templates
+      url: https://github.com/Skrol29/tinybutstrong
+    - name: Twig
+      description: A flexible, fast, and secure template language for PHP inspired by Django and Jinja
+      url: https://github.com/twigphp/Twig
+    - name: Volt
+      description: An ultra-fast and designer-friendly templating engine written in C for PHP
+      url: https://github.com/phalcon/volt
+
+  Python:
+    - name: Chameleon
+      description: An HTML/XML template engine generation library in Python
+      url: https://github.com/malthe/chameleon
+    - name: Cheetah3
+      description: A template engine for Python that allows full integration with existing Python code
+      url: https://github.com/CheetahTemplate3/cheetah3
+    - name: Chevron
+      description: A fast Python implementation of Mustache template engine
+      url: https://github.com/noahmorrison/chevron
+    - name: Genshi
+      description: A Python template engine that provides XML-based template language
+      url: https://github.com/edgewall/genshi
+    - name: Jinja
+      description: A fast, expressive, extensible templating engine with Python-like syntax
+      url: https://github.com/pallets/jinja
+    - name: Jsonnet
+      description: A configuration language for app and tool developers
+      url: https://github.com/google/jsonnet
+    - name: Kajiki
+      description: A fast Python template engine with XML/HTML output inspired by Genshi
+      url: https://github.com/jackrosenthal/kajiki
+    - name: Mako
+      description: A template library written in Python inspired by Django, Jinja2, Cheetah, and Genshi
+      url: https://github.com/sqlalchemy/mako
+    - name: Pystache
+      description: A Python implementation of Mustache template engine
+      url: https://github.com/defunkt/pystache
+    - name: Unprompted
+      description: A powerful templating language for Stable Diffusion workflows
+      url: https://github.com/ThereforeGames/unprompted
+
+  R:
+    - name: Whisker
+      description: A Mustache implementation in R confirming to its specification
+      url: https://github.com/edwindj/whisker
+
+  Ruby:
+    - name: ERB
+      description: A built-in Ruby templating engine that allows embedding Ruby code in documents
+      url: https://docs.ruby-lang.org/en/2.3.0/ERB.html
+    - name: Haml
+      description: A templating engine designed for elegant HTML document generation
+      url: https://github.com/haml/haml
+    - name: Hamlit
+      description: A high performance implementation of Haml
+      url: https://github.com/k0kubun/hamlit
+    - name: Jb
+      description: A simpler and faster alternative to JBuilder
+      url: https://github.com/amatsuda/jb
+    - name: JBuilder
+      description: A DSL for declaring JSON structures in Ruby
+      url: https://github.com/rails/jbuilder
+    - name: Liquid
+      description: A secure, non-evaluating template engine with separate compile and render steps
+      url: https://github.com/Shopify/liquid
+    - name: Mustache
+      description: A framework-agnostic way to render logic-free views in Ruby
+      url: https://github.com/mustache/mustache
+
+  Rust:
+    - name: Handlebars-rust
+      description: A Rust port of Handlebars template engine
+      url: https://github.com/sunng87/handlebars-rust
+    - name: Liquid-rust
+      description: A port of Liquid templating engine in Rust
+      url: https://github.com/cobalt-org/liquid-rust
+    - name: Maud
+      description: An HTML template engine implemented as a Rust macro
+      url: https://github.com/lambda-fairy/maud
+    - name: Rust-Mustache
+      description: A Rust implementation of Mustache specification
+      url: https://github.com/nickel-org/rust-mustache
+    - name: SailFish
+      description: A simple template engine with EJS-like syntax and built-in filters
+      url: https://github.com/rust-sailfish/sailfish
+    - name: Tera
+      description: A template engine inspired by Jinja2 and Django template language
+      url: https://github.com/Keats/tera
+
+  Scala:
+    - name: Beard
+      description: A logic-less templating engine inspired by Mustache using ANTLR for parsing
+      url: https://github.com/zalando/beard
+    - name: Handlebars.scala
+      description: A Scala implementation of Handlebars template engine
+      url: https://github.com/mwunsch/handlebars.scala
+    - name: Hepek
+      description: A Scala-based tool for generating typesafe and flexible HTML
+      url: https://github.com/sake92/hepek
+    - name: ScalaTags
+      description: A small and fast XML/HTML/CSS construction library for Scala
+      url: https://github.com/com-lihaoyi/scalatags
+    - name: Scalate
+      description: A template engine supporting multiple syntax styles including HAML, Mustache, and JSP
+      url: https://github.com/scalate/scalate
+    - name: Thera
+      description: A template engine for building static websites in Scala
+      url: https://github.com/scala-thera/thera
+    - name: Twirl
+      description: A Scala-based template engine inspired by ASP.NET Razor
+      url: https://github.com/playframework/twirl
+
+  Swift:
+    - name: GRMustache.swift
+      description: An extended implementation of Mustache templates with additional functions
+      url: https://github.com/groue/GRMustache.swift
+    - name: Stencil
+      description: A simple template language with Django and Mustache-like syntax
+      url: https://github.com/stencilproject/Stencil
+
+  TypeScript:
+    - name: Eta
+      description: A lightweight templating engine for Node and Deno with small bundle size
+      url: https://github.com/eta-dev/eta
+    - name: LiquidJS
+      description: A port of Shopify Liquid template engine compatible with Github Pages
+      url: https://github.com/harttle/liquidjs
+    - name: Squirrelly
+      description: A modern template engine with Nunjucks-like power and EJS-like simplicity
+      url: https://github.com/squirrellyjs/squirrelly
