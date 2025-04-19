@@ -23,11 +23,11 @@ A curated list of template engines across all programming languages with reposit
 ## {{ language }}
 Summary of ({{ engines|length }} template engines)
 
-| Engine | Description | Stars | Forks | Last Update | Status |
-|--------|-------------|-------|-------|-------------|---------|
+| Engine | Description | Stars | Forks | Last Update | Latest Release | Status |
+|--------|-------------|-------|-------|-------------|----------------|--------|
 {% for engine in engines %}
 {%- set stats = get_repo_stats(engine.url) %}
-| [{{ engine.name }}]({{ engine.url }}) | {{ engine.description }} | {{ stats.stars }}⭐ | {{ stats.forks }} | {{ stats.last_commit|default('N/A')|truncate(10, True, '') }} | {{ '🟢' if stats.active == 'Yes' else '🔴' }} |
+| [{{ engine.name }}]({{ engine.url }}) | {{ engine.description }} | {{ stats.stars }}⭐ | {{ stats.forks }}🍴 | {{ stats.last_update|default('N/A')|truncate(10, True, '') }} | {{ stats.latest_release }} {% if stats.release_date != 'N/A' %}({{ stats.release_date }}){% endif %} | {{ '🟢' if stats.active == 'Yes' else '🔴' if stats.active == 'No' else 'N/A' }} |
 {% endfor %}
 
 {% endfor %}
@@ -44,5 +44,6 @@ Feel free to submit a PR to add or update template engine information!
 
 ---
 **Stats**
-- Green(🟢) if the repository is active and has commit in last 12 months, red(🔴) otherwise.
+- Last update column shows the last commit date in the default branch.
+- Green(🟢) if the repository is active and has default branch commit in last 12 months, red(🔴) otherwise.
 - Last updated: {{ current_date }}
