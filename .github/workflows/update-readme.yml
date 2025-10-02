@@ -14,7 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Set up Python 3.11.0
         uses: actions/setup-python@v5
@@ -36,7 +36,7 @@ jobs:
 
       - name: Generate README with latest stats
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           cd gen
           python generate_readme.py
@@ -65,7 +65,7 @@ jobs:
         if: steps.git-check.outputs.changed == 'true'
         id: create-pr
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           PR_URL=$(gh pr create \
             --title "chore: update README with latest repository stats" \
@@ -85,7 +85,7 @@ jobs:
       - name: Merge Pull Request
         if: steps.git-check.outputs.changed == 'true'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           gh pr merge ${{ steps.create-pr.outputs.pr_url }} \
             --merge \
