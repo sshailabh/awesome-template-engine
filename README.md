@@ -99,7 +99,7 @@ Summary of (17 template engines)
 | [Trimou](https://github.com/trimou/trimou) | A Mustache spec implementation with helpers inspired from Handlebars.js | 84⭐ | 18🍴 | 2023-07-10 | 2.5.0.Final (2018-05-31) | 🔴 |
 
 ## JavaScript
-Summary of (20 template engines)
+Summary of (21 template engines)
 
 | Engine | Description | Stars | Forks | Last Update | Latest Release | Status |
 |--------|-------------|-------|-------|-------------|----------------|--------|
@@ -113,6 +113,7 @@ Summary of (20 template engines)
 | [EJS](https://github.com/mde/ejs) | Embedded JavaScript templates designed to be flexible and easy-to-write | 8025⭐ | 858🍴 | 2025-08-03 | v3.1.10 (2024-04-12) | 🟢 |
 | [Handlebars.js](https://github.com/handlebars-lang/handlebars.js) | A template engine extending Mustache templating with additional features | 18429⭐ | 2053🍴 | 2025-08-19 | v4.7.8 (2023-08-01) | 🟢 |
 | [Hogan.js](https://github.com/twitter/hogan.js) | A compiler for the Mustache templating language with separate scanning, parsing and code generation phases | 5138⭐ | 428🍴 | 2021-12-13 | v3.0.2 (2014-06-17) | 🔴 |
+| [jTDAL](https://github.com/StefanoBalocco/jTDAL) | Small template engine based on Zope TAL, using data attributes | 2⭐ | 0🍴 | 2025-07-15 | v5.0.1 (2025-07-14) | 🟢 |
 | [Lodash](https://github.com/lodash/lodash) | A utility library for working with arrays, numbers, objects, strings, and creating composite functions | 61194⭐ | 7083🍴 | 2024-12-12 | 4.0.0 (2016-01-12) | 🟢 |
 | [Marko](https://github.com/marko-js/marko) | HTML reimagined as a language for building dynamic and reactive user interfaces | 13734⭐ | 654🍴 | 2025-10-02 | @marko/runtime-tags@6.0.82 (2025-10-01) | 🟢 |
 | [MJML](https://github.com/mjmlio/mjml) | A markup language designed to reduce the pain of coding responsive email | 17669⭐ | 975🍴 | 2025-09-18 | v4.16.1 (2025-09-18) | 🟢 |
