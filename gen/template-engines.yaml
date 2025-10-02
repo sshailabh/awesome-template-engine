@@ -171,6 +171,9 @@ template_engines:
     - name: Hogan.js
       description: A compiler for the Mustache templating language with separate scanning, parsing and code generation phases
       url: https://github.com/twitter/hogan.js
+    - name: jTDAL
+      description: Small template engine based on Zope TAL, using data attributes
+      url: https://github.com/StefanoBalocco/jTDAL
     - name: Lodash
       description: A utility library for working with arrays, numbers, objects, strings, and creating composite functions
       url: https://github.com/lodash/lodash
