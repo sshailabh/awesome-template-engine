@@ -84,10 +84,42 @@ jobs:
 
       - name: Merge Pull Request
         if: steps.git-check.outputs.changed == 'true'
+        id: merge-pr
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          gh pr merge ${{ steps.create-pr.outputs.pr_url }} \
+          # Extract PR number from URL
+          PR_NUMBER=$(echo "${{ steps.create-pr.outputs.pr_url }}" | grep -oE '[0-9]+$')
+
+          # Merge the PR directly without auto-merge
+          gh pr merge $PR_NUMBER \
             --merge \
-            --auto \
-            --delete-branch
+            --delete-branch \
+            --repo ${{ github.repository }}
+
+      - name: Cleanup unmerged branch
+        if: always() && steps.git-check.outputs.changed == 'true' && steps.create-branch.outputs.branch_name != '' && failure()
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          BRANCH_NAME="${{ steps.create-branch.outputs.branch_name }}"
+
+          # Check if branch exists on remote
+          if git ls-remote --heads origin "$BRANCH_NAME" | grep -q "$BRANCH_NAME"; then
+            echo "Branch $BRANCH_NAME exists, attempting to delete..."
+
+            # Try to close any open PR for this branch
+            PR_NUMBER=$(gh pr list --head "$BRANCH_NAME" --json number --jq '.[0].number' 2>/dev/null || echo "")
+            if [ -n "$PR_NUMBER" ]; then
+              echo "Closing PR #$PR_NUMBER"
+              gh pr close $PR_NUMBER --delete-branch --repo ${{ github.repository }} || true
+            else
+              # If no PR or PR close failed, delete branch directly
+              echo "Deleting branch $BRANCH_NAME"
+              git push origin --delete "$BRANCH_NAME" || true
+            fi
+
+            echo "Cleanup completed for branch $BRANCH_NAME"
+          else
+            echo "Branch $BRANCH_NAME does not exist or already deleted"
+          fi
