@@ -66,6 +66,9 @@ template_engines:
     - name: Jet
       description: Fast and dynamic template engine with Django-like syntax
       url: https://github.com/CloudyKit/jet
+    - name: Liquid
+      description: Go implementation of Shopify Liquid templates
+      url: https://github.com/osteele/liquid
     - name: Mustache.go
       description: Go implementation of Mustache templates
       url: https://github.com/hoisie/mustache
