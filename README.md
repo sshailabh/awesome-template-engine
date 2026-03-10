@@ -163,7 +163,7 @@ Summary of (15 template engines)
 | [Volt](https://github.com/phalcon/volt) | An ultra-fast and designer-friendly templating engine written in C for PHP | 11⭐ | 4🍴 | 2026-02-02 | N/A  | 🟢 |
 
 ## Python
-Summary of (10 template engines)
+Summary of (11 template engines)
 
 | Engine | Description | Stars | Forks | Last Update | Latest Release | Status |
 |--------|-------------|-------|-------|-------------|----------------|--------|
@@ -173,6 +173,7 @@ Summary of (10 template engines)
 | [Genshi](https://github.com/edgewall/genshi) | A Python template engine that provides XML-based template language | 97⭐ | 38🍴 | 2026-02-09 | 0.7.10 (2025-11-30) | 🟢 |
 | [Jinja](https://github.com/pallets/jinja) | A fast, expressive, extensible templating engine with Python-like syntax | 11462⭐ | 1702🍴 | 2025-06-14 | 3.1.6 (2025-03-05) | 🟢 |
 | [Jsonnet](https://github.com/google/jsonnet) | A configuration language for app and tool developers | 7466⭐ | 471🍴 | 2026-02-13 | v0.21.0 (2025-05-07) | 🟢 |
+| [Kida](https://github.com/lbliii/kida) | A modern Python template engine with AST-native compilation, streaming, block rendering, and Python-like syntax | 6⭐ | 0🍴 | 2026-03-09 | v0.2.6 (2026-03-09) | 🟢 |
 | [Kajiki](https://github.com/jackrosenthal/kajiki) | A fast Python template engine with XML/HTML output inspired by Genshi | 51⭐ | 17🍴 | 2025-05-05 | v1.0.1 (2025-05-04) | 🟢 |
 | [Mako](https://github.com/sqlalchemy/mako) | A template library written in Python inspired by Django, Jinja2, Cheetah, and Genshi | 429⭐ | 69🍴 | 2025-08-16 | rel_1_3_10 (2025-04-10) | 🟢 |
 | [Pystache](https://github.com/defunkt/pystache) | A Python implementation of Mustache template engine | 1318⭐ | 310🍴 | 2014-09-30 | v0.5.4 (2014-05-12) | 🔴 |
