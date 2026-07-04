@@ -221,6 +221,20 @@ template_engines:
       description: Lua implementation of Mustache template engine
       url: https://github.com/Olivine-Labs/lustache
 
+  Nim:
+    - name: Dekao
+      description: HTML templating language for Nim
+      url: https://github.com/ajusa/dekao
+    - name: Nim Moustache
+      description: A Nim implementation of Mustache
+      url: https://github.com/soasme/nim-mustache
+    - name: Nimja
+      description: Typed and compiled template engine inspired by jinja2
+      url: https://github.com/enthus1ast/nimja
+    - name: Tim Engine
+      description: A powerful, embeddable front-end framework featuring a built-in template engine, programming language, VM, and S2S transpiler
+      url: https://github.com/openpeeps/tim
+
   PHP:
     - name: Blade
       description: The simple yet powerful templating engine provided with Laravel
