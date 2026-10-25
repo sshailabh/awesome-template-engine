@@ -32,6 +32,9 @@ template_engines:
     - name: Jinja2Cpp
       description: C++ implementation of Python Jinja2 template engine
       url: https://github.com/jinja2cpp/Jinja2Cpp
+    - name: liquid-cpp
+      description: A C++ liquid parser/renderer, with multi-language interop.
+      url: https://github.com/adamharrison/liquid-cpp
     - name: mstch
       description: Complete implementation of mustache templates in C++
       url: https://github.com/no1msd/mstch
